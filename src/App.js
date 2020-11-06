@@ -5,6 +5,7 @@ import { Switch, Route, withRouter } from 'react-router-dom'
 import NavBar from './Components/NavBar'
 import TitlePage from './Containers/TitlePage'
 import Portfolio from './Containers/Portfolio'
+import About from './Components/About'
 
 class App extends React.Component {
 
@@ -44,7 +45,7 @@ class App extends React.Component {
             <Route path="/about" render={()=>{
               return(
                 <>
-                  About me: I'm awesome
+                  <About />
                 </>
               )
             }} />

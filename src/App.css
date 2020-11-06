@@ -38,6 +38,14 @@
   color: #25ee46;
 }
 
+.navbar .active-link {
+  color: #25ee46;
+}
+
+.navbar .active-link:hover {
+  color: rgb(241, 164, 62);
+}
+
 .main{
   margin-top: 10px;
 }
@@ -78,6 +86,29 @@ h1:first-child{
   border-bottom: solid;
   border-color: skyblue;
   border-radius: 5px;
+}
+
+.portfolio-list{
+  position: absolute;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  list-style: none;
+  top: 10vh;
+  left: 45%;
+}
+
+.portfolio-list li{
+  background-color: rgb(0, 0, 0);
+  margin: 5px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.portfolio-list a{
+  cursor: pointer;
+  color: white;
 }
 
 .home{
@@ -134,6 +165,37 @@ h1:first-child{
   top: 50vh;
   left: 30%;
 } */
+
+.about {
+  position: relative;
+}
+
+.about-list {
+  color: white;
+  list-style: none;
+}
+
+.about h1{
+  position: absolute;
+  left: 2vw;
+}
+
+.about ul{
+  position: absolute;
+  top: 20vh;
+  left: 24vw;
+  font-size: 30px;
+}
+
+.about li:nth-child(2){
+  margin: 5vh;
+  border-top: solid skyblue;
+  border-bottom: solid skyblue;
+  padding: 5vh;
+  
+}
+
+
 
 
 
