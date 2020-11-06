@@ -1,7 +1,164 @@
 .App {
   text-align: center;
+  background-color:rgb(19, 29, 41);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  font-family: FS Silas Slab,serif;
+  /* background-image: url('./images/lightbulb.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh; */
+  /* margin-top: -20px; */
 }
 
+.navbar {
+  /* position: sticky; */
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  list-style: none;
+  margin: 0;
+  background: #1b242f;
+  border-bottom: #25ee46 solid;
+  margin: 0;
+  width: 100vw;
+}
+
+.navbar .navlink {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+  transition: color 0.5s;
+}
+
+.navbar .navlink:hover {
+  color: #25ee46;
+}
+
+.main{
+  margin-top: 10px;
+}
+
+.title {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  height: 50vh;
+  font-family: FS Silas Slab,serif;
+  /* color: #fcf9ed */
+}
+
+.gif1{
+  background-image: url('./images/du-it.gif');
+  position: relative;
+}
+
+.gif2{
+  background-image: url('./images/socialite.gif');
+  position: relative;
+}
+
+.gif3{
+  background-image: url('./images/demo.gif');
+  position: relative;
+}
+
+h1:first-child{
+  color: white;
+  background-color: rgb(19, 29, 41);
+  /* opacity: 0.50; */
+  width: 50vw;
+  position: absolute;
+  left: 30%;
+  border-bottom: solid;
+  border-color: skyblue;
+  border-radius: 5px;
+}
+
+.home{
+  position: relative;
+  /* background-color: #0b305e; */
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  /* grid-template-columns: auto;
+  grid-template-rows: auto auto auto; */
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 40px 50px auto 50px 40px;
+}
+
+#name{
+  /* position: absolute; */
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  /* border-bottom: solid #b1c4db; */
+  /* top: 30vh;
+  left: 30%; */
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-end;
+  grid-row-end: 2;
+}
+
+#title-line{
+  border-top: solid #b1c4db;
+  width: 75vw;
+  /* grid-column-start: col2-end; */
+  grid-column-start: 3;
+  grid-column-end: five;
+  grid-row-start: row2-start;
+  grid-row-end: 3;
+}
+
+#role{
+  /* position: absolute; */
+  color: white;
+  font-size: 30px;
+  margin: 5px 0;
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+/* h2:nth-child(2){
+  position: absolute;
+  color: white;
+  width: 50vw;
+  top: 50vh;
+  left: 30%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +192,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
