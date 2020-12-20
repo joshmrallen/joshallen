@@ -70,7 +70,9 @@ class App extends React.Component {
 export default App;
 
 
-
+/*
+  first attempt -- don't like having seperate routes -- added new branch for a single page version
+*/
 
 
 
