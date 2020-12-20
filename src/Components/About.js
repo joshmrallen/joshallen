@@ -5,10 +5,12 @@ const About = () => {
 
     return(
         <div className="about">
-            <h1>
-                About Me
-            </h1>
-            <ul>
+            <Slide cascade>
+                <h1>
+                    Josh Allen
+                </h1>
+            </Slide>
+            {/* <ul>
                 <Slide cascade>
                     <li className="about-list">
                         Software Engineer, Full Stack Web Development
@@ -20,7 +22,7 @@ const About = () => {
                         Husband
                     </li>
                 </Slide>
-            </ul>
+            </ul> */}
 
         </div>
     )

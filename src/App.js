@@ -14,51 +14,10 @@ class App extends React.Component {
       <>
       <div className="App">
         <NavBar />
+        <About />
 
         <div className="main">
-          <Switch>
-
-            <Route path="/contact" render={()=>{
-              return(
-                <>
-                  Contact
-                </>
-              )
-            }} />
-
-            <Route path="/blog" render={()=>{
-              return(
-                <>
-                  Blog
-                </>
-              )
-            }} />
-
-            <Route path="/portfolio" render={()=>{
-              return(
-                <div className="title">
-                  <Portfolio />
-                </div>
-              )
-            }} />
-
-            <Route path="/about" render={()=>{
-              return(
-                <>
-                  <About />
-                </>
-              )
-            }} />
-
-            <Route path="/" render={()=>{
-              return(
-                <>
-                  <TitlePage />
-                </>
-              )
-            }} />
-
-          </Switch>
+          
         </div>
       </div>
     </>
