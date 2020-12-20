@@ -5,8 +5,11 @@ const Links = () => {
     return(
         <div>
             <ul>
-                <li></li>
+                <li><img src="../images/GitHub-Mark-Light-120px-plus.png" /></li>
             </ul>
         </div>
     )
 }
+
+
+export default Links
