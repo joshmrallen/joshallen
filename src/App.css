@@ -168,6 +168,7 @@ h1:first-child{
 
 .about {
   position: relative;
+  
 }
 
 .about-list {
@@ -183,9 +184,12 @@ h1:first-child{
 .about ul{
   position: absolute;
   top: 5vh;
-  left: 25%;
+  left: 30%;
   font-size: 30px;
   list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
 }
 
 /* .about ul li {
@@ -196,6 +200,7 @@ h1:first-child{
 .link-image {
   height: 30px;
   width: 30px;
+  padding: 0px 25%;
 }
 
 /* .about li:nth-child(2){
