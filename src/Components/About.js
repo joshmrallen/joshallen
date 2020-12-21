@@ -1,6 +1,7 @@
 import React from 'react'
 import { Slide } from 'react-awesome-reveal'
 import Links from './Links.js'
+import Bio from './Bio.js'
 
 const About = () => {
 
@@ -11,7 +12,9 @@ const About = () => {
                     Josh Allen
                 </h1>
                 <Links />
+                <Bio />
             </Slide>
+
             {/* <ul>
                 <Slide cascade>
                     <li className="about-list">
