@@ -12,7 +12,6 @@ const About = () => {
                     Josh Allen
                 </h1>
                 <Links />
-                <Bio />
             </Slide>
 
             {/* <ul>

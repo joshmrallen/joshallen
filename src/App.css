@@ -186,7 +186,7 @@ h1:first-child{
 .about ul{
   position: absolute;
   top: 5vh;
-  left: 35%;
+  left: 33%;
   font-size: 30px;
   list-style-type: none;
   display: flex;
@@ -202,7 +202,13 @@ h1:first-child{
 .link-image {
   height: 30px;
   width: 30px;
-  padding: 0px 50%;
+  padding: 0px 30px;
+}
+
+#medium {
+  height: 35px;
+  width: 115px;
+  padding: 0px 30px;
 }
 
 /* .about li:nth-child(2){
@@ -211,6 +217,11 @@ h1:first-child{
   border-bottom: solid skyblue;
   padding: 5vh;
   
+} */
+
+/* .bio {
+  position: absolute;
+  top: 100vh;
 } */
 
 
