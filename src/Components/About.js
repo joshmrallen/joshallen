@@ -11,6 +11,7 @@ const About = () => {
                 <h1>
                     Josh Allen
                 </h1>
+                <hr></hr>
                 <Links />
             </Slide>
 

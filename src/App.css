@@ -46,9 +46,7 @@
   color: rgb(241, 164, 62);
 }
 
-.main{
-  margin-top: 10px;
-}
+
 
 .title {
   position: relative;
@@ -83,9 +81,9 @@ h1:first-child{
   width: 50vw;
   position: absolute;
   left: 30%;
-  border-bottom: solid;
+  /* border-bottom: solid;
   border-color: skyblue;
-  border-radius: 5px;
+  border-radius: 5px; */
 }
 
 .portfolio-list{
@@ -183,6 +181,14 @@ h1:first-child{
   left: 25%;
 }
 
+hr {
+  position: absolute;
+  left: 40%;
+  top: 6vh;
+  width: 20%;
+  border-color: #25ee46;
+}
+
 .about ul{
   position: absolute;
   top: 5vh;
@@ -193,11 +199,6 @@ h1:first-child{
   flex-flow: row wrap;
   align-content: space-around;
 }
-
-/* .about ul li {
-  height: 10px;
-  width: 10px;
-} */
 
 .link-image {
   height: 30px;
@@ -211,18 +212,26 @@ h1:first-child{
   padding: 0px 30px;
 }
 
-/* .about li:nth-child(2){
-  margin: 5vh;
-  border-top: solid skyblue;
-  border-bottom: solid skyblue;
-  padding: 5vh;
-  
-} */
+.bio {
+  /* position: absolute; */
+  position: relative;
+  top: 20vh;
+  color: white;
+}
 
-/* .bio {
+.bio h1{
   position: absolute;
-  top: 100vh;
-} */
+  left: 25%;
+}
+
+.bio div{
+  position: absolute;
+  text-align: left;
+  top: 10vh;
+  left: 40%;
+  font-size: 18pt;
+  padding-right: 5em;
+}
 
 
 

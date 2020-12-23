@@ -17,9 +17,10 @@ class App extends React.Component {
         <NavBar />
         <About />
         <Bio />
-        <div className="main">
+        {/* <div className="main">
           
-        </div>
+          
+        </div> */}
       </div>
     </>
     );
