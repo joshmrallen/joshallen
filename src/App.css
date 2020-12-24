@@ -13,7 +13,8 @@
 }
 
 .navbar {
-  /* position: sticky; */
+  position: fixed;
+  z-index: 1000;
   display: flex;
   flex-flow: row wrap;
   align-content: space-around;
@@ -169,6 +170,7 @@ h1:first-child{
   color: white;
   /* text-justify: distribute-all-lines; */
   text-justify: distribute;
+  top: 6em;
 }
 
 .about-list {

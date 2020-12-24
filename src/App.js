@@ -18,12 +18,34 @@ class App extends React.Component {
     return (
       <>
       <div className="App">
+        
         <NavBar />
         <About />
         <Bio />
         <Projects />
         <Blog />
         <Contact />
+
+        {/* <Element name="home">
+          <About />
+        </Element>
+
+        <Element name="about">
+          <Bio />
+        </Element>
+
+        <Element name="projects">
+          <Projects />
+        </Element>
+
+        <Element name="blog">
+          <Blog />
+        </Element>
+        
+        <Element name="contact">
+          <Contact />
+        </Element> */}
+
       </div>
     </>
     );
