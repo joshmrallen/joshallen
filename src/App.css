@@ -3,7 +3,7 @@
   background-color:rgb(19, 29, 41);
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 2000vh;
   font-family: FS Silas Slab,serif;
   /* background-image: url('./images/lightbulb.gif');
   background-repeat: no-repeat;
@@ -75,12 +75,12 @@
 }
 
 h1:first-child{
+  position: absolute;
   color: white;
   background-color: rgb(19, 29, 41);
   /* opacity: 0.50; */
   width: 50vw;
-  position: absolute;
-  left: 30%;
+  left: 25%;
   /* border-bottom: solid;
   border-color: skyblue;
   border-radius: 5px; */
@@ -176,11 +176,6 @@ h1:first-child{
   list-style: none;
 }
 
-.about h1{
-  position: absolute;
-  left: 25%;
-}
-
 hr {
   position: absolute;
   left: 40%;
@@ -219,11 +214,6 @@ hr {
   color: white;
 }
 
-.bio h1{
-  position: absolute;
-  left: 25%;
-}
-
 .bio div{
   position: absolute;
   text-align: left;
@@ -231,6 +221,66 @@ hr {
   left: 40%;
   font-size: 18pt;
   padding-right: 5em;
+}
+
+.projects {
+  position: relative;
+  top: 100vh;
+  color: white;
+}
+
+.projects div{
+  position: absolute;
+  text-align: center;
+  top: 10vh;
+  left: 40%;
+  font-size: 18pt;
+  padding-right: 5em;
+}
+
+.blog {
+  position: relative;
+  top: 200vh;
+  color: white;
+}
+
+.blog div{
+  position: absolute;
+  text-align: center;
+  top: 10vh;
+  left: 40%;
+  font-size: 18pt;
+  padding-right: 5em;
+}
+
+.contact {
+  position: relative;
+  top: 300vh;
+  color: white;
+}
+
+.contact div{
+  position: absolute;
+  text-align: center;
+  top: 10vh;
+  left: 40%;
+  font-size: 18pt;
+  padding-right: 5em;
+}
+
+/* div:nth-child(3){
+  position: absolute;
+  text-align: center;
+  top: 10vh;
+  left: 40%;
+  font-size: 18pt;
+  padding-right: 5em;
+} */
+
+
+.filler {
+  width: 100%;
+  height: 200vh;
 }
 
 

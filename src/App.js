@@ -2,11 +2,15 @@ import React from 'react'
 import logo from './logo.svg';
 import './App.css';
 import { Switch, Route, withRouter } from 'react-router-dom'
+import { Link, Element, Events, animateScroll as scroll, scrollspy, scroller } from 'react-scroll'
 import NavBar from './Components/NavBar'
 import TitlePage from './Containers/TitlePage'
 import Portfolio from './Containers/Portfolio'
 import About from './Components/About'
 import Bio from './Components/Bio'
+import Projects from './Containers/Projects'
+import Blog from './Containers/Blog'
+import Contact from './Containers/Contact'
 
 class App extends React.Component {
 
@@ -17,10 +21,9 @@ class App extends React.Component {
         <NavBar />
         <About />
         <Bio />
-        {/* <div className="main">
-          
-          
-        </div> */}
+        <Projects />
+        <Blog />
+        <Contact />
       </div>
     </>
     );

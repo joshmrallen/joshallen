@@ -6,7 +6,7 @@ import Bio from './Bio.js'
 const About = () => {
 
     return(
-        <div className="about">
+        <div className="about" id='home'>
             <Slide cascade>
                 <h1>
                     Josh Allen
@@ -14,6 +14,9 @@ const About = () => {
                 <hr></hr>
                 <Links />
             </Slide>
+            <div className="filler">
+
+            </div>
 
             {/* <ul>
                 <Slide cascade>

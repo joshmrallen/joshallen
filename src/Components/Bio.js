@@ -3,7 +3,7 @@ import React from 'react'
 const Bio = () => {
 
     return(
-        <div className="bio">
+        <div className="bio" id='about'>
             <h1>About</h1>
             <hr></hr>
             <div className="bio-text">
