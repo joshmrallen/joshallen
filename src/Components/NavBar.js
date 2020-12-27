@@ -3,6 +3,15 @@ import {Link} from 'react-scroll'
 // import {NavLink} from 'react-router-dom'
 
 const NavBar = () => {
+
+    const vanillaJSScrollTo = document.querySelector("#VANILLAJSSCROLLTO")
+    const scroll = () => {
+        vanillaJSScrollTo.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+        })
+    }
+
     return(
         <ul className="navbar">
             <li><Link className="navlink" activeClass="active-link" to="home" spy={true} smooth={true} offset={-50}>HOME</Link></li>
@@ -10,6 +19,7 @@ const NavBar = () => {
             <li><Link className="navlink" activeClass="active-link" to="projects" spy={true} smooth={true} offset={-50}>PROJECTS</Link></li>
             <li><Link className="navlink" activeClass="active-link" to="blog" spy={true} smooth={true} offset={-50}>BLOG</Link></li>
             <li><Link className="navlink" activeClass="active-link" to="contact" spy={true} smooth={true} offset={-50}>CONTACT</Link></li>
+            <li className="navlink" onClick={scroll}>VANILLAJSSCROLLTO</li>
         </ul>
     )
 }

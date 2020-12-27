@@ -40,7 +40,7 @@
 }
 
 .navbar .active-link {
-  color: #25ee46;
+  color: rgb(241, 164, 62);
 }
 
 .navbar .active-link:hover {
@@ -268,6 +268,12 @@ hr {
   left: 40%;
   font-size: 18pt;
   padding-right: 5em;
+}
+
+#VANILLAJSSCROLLTO {
+  position: relative;
+  top: 400vh;
+  color: white;
 }
 
 /* div:nth-child(3){

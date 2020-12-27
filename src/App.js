@@ -25,6 +25,9 @@ class App extends React.Component {
         <Projects />
         <Blog />
         <Contact />
+        <div id="VANILLAJSSCROLLTO">
+          <h1>VANILLAJSSCROLLTO</h1>
+        </div>
 
         {/* <Element name="home">
           <About />
