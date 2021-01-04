@@ -1,4 +1,6 @@
 import React from 'react'
+import Pic from '../images/joshmrallen-headshotJPG.jpg'
+import { Slide } from 'react-awesome-reveal'
 
 const Bio = () => {
 
@@ -6,6 +8,7 @@ const Bio = () => {
         <div className="bio" id='about'>
             <h1>About</h1>
             <hr></hr>
+            <img className="headshot" src={Pic} alt="Professional Headshot of Josh M.R. Allen" />
             <div className="bio-text">
                 <p>I'm an optimistic Software Engineer and father with a passion for languages, music, and life. My experience has been with using Ruby on Rails, JavaScript, and React frameworks to create full stack web applications.</p>
                 <p>Many know me as a helpful person who enjoys walking through problems and learning new programming languages and technology. I've worked for start-ups as well as large companies where I developed key prioritization, collaboration, leadership, and effective problem solving skills. In the past, co-workers have frequently come to me as their "go-to" for problems they needed help with.</p>

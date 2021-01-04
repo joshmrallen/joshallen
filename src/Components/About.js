@@ -1,7 +1,6 @@
 import React from 'react'
 import { Slide } from 'react-awesome-reveal'
 import Links from './Links.js'
-import Bio from './Bio.js'
 
 const About = () => {
 
