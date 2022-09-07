@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/joshallen/static/css/main.7f4f70e2.chunk.css",
+    "main.js": "/joshallen/static/js/main.abeb5219.chunk.js",
+    "main.js.map": "/joshallen/static/js/main.abeb5219.chunk.js.map",
+    "runtime-main.js": "/joshallen/static/js/runtime-main.cc21035c.js",
+    "runtime-main.js.map": "/joshallen/static/js/runtime-main.cc21035c.js.map",
+    "static/js/2.9be34e10.chunk.js": "/joshallen/static/js/2.9be34e10.chunk.js",
+    "static/js/2.9be34e10.chunk.js.map": "/joshallen/static/js/2.9be34e10.chunk.js.map",
+    "static/js/3.8cab2a81.chunk.js": "/joshallen/static/js/3.8cab2a81.chunk.js",
+    "static/js/3.8cab2a81.chunk.js.map": "/joshallen/static/js/3.8cab2a81.chunk.js.map",
+    "index.html": "/joshallen/index.html",
+    "static/css/main.7f4f70e2.chunk.css.map": "/joshallen/static/css/main.7f4f70e2.chunk.css.map",
+    "static/js/2.9be34e10.chunk.js.LICENSE.txt": "/joshallen/static/js/2.9be34e10.chunk.js.LICENSE.txt",
+    "static/media/Medium-Logo-White-RGB@2x.01cce37c.png": "/joshallen/static/media/Medium-Logo-White-RGB@2x.01cce37c.png",
+    "static/media/Medium-Symbol-White-RGB@2x.887ab6e4.png": "/joshallen/static/media/Medium-Symbol-White-RGB@2x.887ab6e4.png",
+    "static/media/App.css": "/joshallen/static/media/socialite.bc90d763.gif",
+    "static/media/joshmrallen-headshotJPG.9781c1d7.jpg": "/joshallen/static/media/joshmrallen-headshotJPG.9781c1d7.jpg",
+    "static/media/logo.103b5fa1.svg": "/joshallen/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc21035c.js",
+    "static/js/2.9be34e10.chunk.js",
+    "static/css/main.7f4f70e2.chunk.css",
+    "static/js/main.abeb5219.chunk.js"
+  ]
+}
