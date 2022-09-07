@@ -1,5 +1,5 @@
 import React from 'react'
-import Particles from 'react-particles'
+// import Particles from 'react-particles'
 import logo from './logo.svg';
 import './App.css';
 import { Switch, Route, withRouter } from 'react-router-dom'
@@ -22,12 +22,12 @@ class App extends React.Component {
         
         <NavBar />
         <About />
-        <Particles className="particles" />
+        {/* <Particles className="particles" /> */}
         <Bio />
-        <Particles className="particles" />
+        {/* <Particles className="particles" /> */}
         <Projects />
         <Blog />
-        <Particles className="particles" />
+        {/* <Particles className="particles" /> */}
         <Contact />
         
         
